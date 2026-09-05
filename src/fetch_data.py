@@ -10,20 +10,20 @@ Live OpenAQ access uses ``OPENAQ_API_KEY`` >>  You can get at https://docs.opena
 Live NASA FIRMS access uses ``NASA_FIRMS_MAP_KEY`` >>  You can get at https://firms.modaps.eosdis.nasa.gov/api/map_key/
 
 Public direct URLs for DDC, population, accreditation and boundary files are built in  
-``HW04_DOWNLOAD_DIR`` remains available as a fallback when a publisher temporarily blocks an automated download:
-    HW04_DOWNLOAD_DIR="/path/to/downloaded/files" HW04_FETCH_LIVE=1 \
+``DOWNLOAD_DIR`` remains available as a fallback when a publisher temporarily blocks an automated download:
+    DOWNLOAD_DIR="/path/to/downloaded/files" FETCH_LIVE=1 \
     python src/fetch_data.py
 
 Three optional acquisition overrides are available:
 
-1. ``HW04_DOWNLOAD_DIR``: local folder searched recursively for downloaded source files.
+1. ``DOWNLOAD_DIR``: local folder searched recursively for downloaded source files.
 
-2. ``HW04_RAW_BUNDLE_URL``: URL of one ZIP whose member paths match the paths in ``STATIC_SOURCES`` 
+2. ``RAW_BUNDLE_URL``: URL of one ZIP whose member paths match the paths in ``STATIC_SOURCES`` 
     below (it may optionally start with ``data/raw/``).
     The same ZIP may also contain the optional ``data/raw/frozen`` 
     analytical snapshots listed in ``OPTIONAL_FROZEN_SOURCES`` for exact-number reruns.
     
-3. ``HW04_SOURCE_URLS_JSON``: JSON text, or a path to a JSON file, mapping each relative raw path to its direct download URL.
+3. ``SOURCE_URLS_JSON``: JSON text, or a path to a JSON file, mapping each relative raw path to its direct download URL.
 
 =============================================================================
 FUNCTION GUIDE
