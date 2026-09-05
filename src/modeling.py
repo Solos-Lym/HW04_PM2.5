@@ -1028,7 +1028,11 @@ def write_manifest(
             "output_group": "RESULT",
             "report_role": "MACHINE_READABLE_MODEL_RESULT",
             "filename": filename,
-            "relative_path": f"outputs/modeling/results/{filename}",
+            "relative_path": (
+                f"outputs/modeling/{filename}"
+                if filename == "modeling_summary.json"
+                else f"outputs/modeling/results/{filename}"
+            ),
             "row_count": row_count,
         })
     rows.append({
