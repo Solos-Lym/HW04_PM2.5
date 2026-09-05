@@ -84,11 +84,11 @@ The executable files must use these exact names:
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
+├── check_dataset.py
 └── src/
     ├── fetch_data.py
     ├── prepare_tables.py
     ├── prepare_data.py
-    ├── check_dataset.py
     ├── analysis.py
     └── modeling.py
 ~~~
@@ -119,7 +119,7 @@ Use Python 3.12. If activation succeeds, the terminal normally shows <code>(.ven
 ~~~bash
 python -m pip install -r requirements.txt
 python -m pip check
-python -m py_compile src/fetch_data.py src/prepare_tables.py src/prepare_data.py src/check_dataset.py src/analysis.py src/modeling.py
+python -m py_compile check_dataset.py src/fetch_data.py src/prepare_tables.py src/prepare_data.py  src/analysis.py src/modeling.py
 ~~~
 
 | Output | Meaning | Decision |
@@ -273,7 +273,7 @@ Do not run a separate acquisition command here. Go directly to **Process 6**, wh
 Run:
 
 ~~~bash
-export HW04_FETCH_LIVE=1
+export FETCH_LIVE=1
 export OPENAQ_API_KEY="YOUR_OPENAQ_API_KEY"
 export NASA_FIRMS_MAP_KEY="YOUR_NASA_FIRMS_MAP_KEY"
 python src/fetch_data.py
@@ -282,7 +282,7 @@ python src/fetch_data.py
 After the run, remove the values from the current shell:
 
 ~~~bash
-unset HW04_FETCH_LIVE
+unset FETCH_LIVE
 unset OPENAQ_API_KEY
 unset NASA_FIRMS_MAP_KEY
 ~~~
@@ -297,10 +297,10 @@ unset NASA_FIRMS_MAP_KEY
 | <code>Source acquisition is incomplete:</code> | At least one required group is missing | Stop |
 
 > 🟦 **Optional — manually downloaded files**  
-> If a publisher blocks automatic download, place the correct publisher files in one folder, set <code>HW04_DOWNLOAD_DIR</code> to that folder, and rerun Live acquisition.
+> If a publisher blocks automatic download, place the correct publisher files in one folder, set <code>DOWNLOAD_DIR</code> to that folder, and rerun Live acquisition.
 
 ~~~bash
-export HW04_DOWNLOAD_DIR="/absolute/path/to/downloaded-files"
+export DOWNLOAD_DIR="/absolute/path/to/downloaded-files"
 python src/fetch_data.py
 ~~~
 
@@ -431,7 +431,7 @@ No additional command is required.
 **Input**
 
 ~~~text
-src/check_dataset.py
+check_dataset.py
 src/fetch_data.py
 data/processed/analysis_ready/env_data_notnull.csv
 outputs/metadata/data_dictionary/env_data_dictionary.csv
@@ -442,7 +442,7 @@ The <code>--dictionary</code> option is optional for the generic checker, but **
 Run:
 
 ~~~bash
-python src/check_dataset.py data/processed/analysis_ready/env_data_notnull.csv --target observed_pm25_median_ugm3 --time analysis_date --group province_key --fetch-script src/fetch_data.py --dictionary outputs/metadata/data_dictionary/env_data_dictionary.csv --output outputs/quality/feasibility_report.md
+python check_dataset.py data/processed/analysis_ready/env_data_notnull.csv --target observed_pm25_median_ugm3 --time analysis_date --group province_key --fetch-script src/fetch_data.py --dictionary outputs/metadata/data_dictionary/env_data_dictionary.csv --output outputs/quality/feasibility_report.md
 ~~~
 
 **Output**
@@ -654,11 +654,11 @@ No additional command is required.
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
+├── check_dataset.py
 ├── src/
 │   ├── fetch_data.py
 │   ├── prepare_tables.py
 │   ├── prepare_data.py
-│   ├── check_dataset.py
 │   ├── analysis.py
 │   └── modeling.py
 ├── data/
@@ -773,7 +773,7 @@ No additional command is required.
 
 Use Process 6 immediately after Process 0 when the **Frozen** route is selected. Do not run Processes 1–5 separately first.
 
-Before running, make sure <code>HW04_FETCH_LIVE</code> is not set to <code>1</code>. With no Live flag, <code>fetch_data.py</code> uses Frozen mode by default.
+Before running, make sure <code>FETCH_LIVE</code> is not set to <code>1</code>. With no Live flag, <code>fetch_data.py</code> uses Frozen mode by default.
 
 #### 6.1 Run all scripts in order
 
@@ -784,7 +784,7 @@ requirements.txt
 src/fetch_data.py
 src/prepare_tables.py
 src/prepare_data.py
-src/check_dataset.py
+check_dataset.py
 src/analysis.py
 src/modeling.py
 data/raw/**
@@ -796,7 +796,7 @@ Run these same commands, in this order:
 python src/fetch_data.py
 python src/prepare_tables.py
 python src/prepare_data.py
-python src/check_dataset.py data/processed/analysis_ready/env_data_notnull.csv --target observed_pm25_median_ugm3 --time analysis_date --group province_key --fetch-script src/fetch_data.py --dictionary outputs/metadata/data_dictionary/env_data_dictionary.csv --output outputs/quality/feasibility_report.md
+python check_dataset.py data/processed/analysis_ready/env_data_notnull.csv --target observed_pm25_median_ugm3 --time analysis_date --group province_key --fetch-script src/fetch_data.py --dictionary outputs/metadata/data_dictionary/env_data_dictionary.csv --output outputs/quality/feasibility_report.md
 python src/analysis.py
 python src/modeling.py
 ~~~
@@ -869,12 +869,12 @@ Process 6 creates the same acquisition, preparation, gate, descriptive, AT1, and
 | 0 | Package import fails | Activate <code>.venv</code> and reinstall <code>requirements.txt</code> |
 | 1 | OpenAQ returns <code>401</code> or <code>403</code> | Check or replace <code>OPENAQ_API_KEY</code> |
 | 1 | FIRMS rejects the request | Check <code>NASA_FIRMS_MAP_KEY</code> and API limits |
-| 1 | A public download returns an HTML error page | Download the exact source file manually and use <code>HW04_DOWNLOAD_DIR</code> |
+| 1 | A public download returns an HTML error page | Download the exact source file manually and use <code>DOWNLOAD_DIR</code> |
 | 2 | Duplicate, foreign-key, or merge error | Inspect the named quality CSV and fix the upstream parser/input |
 | 3 | Gate returns <code>NOT YET FEASIBLE</code> | Open <code>feasibility_report.md</code> and resolve every failure |
 | 4 | A figure is missing or blank | Fix the first <code>analysis.py</code> error and rerun Process 4 |
 | 5 | Modeling input is missing | Rerun Process 4, then Process 5 |
-| 6 | The run started in Live mode | Unset <code>HW04_FETCH_LIVE</code> and restart Process 6 |
+| 6 | The run started in Live mode | Unset <code>FETCH_LIVE</code> and restart Process 6 |
 
 ### References
 
