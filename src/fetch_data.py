@@ -2,8 +2,8 @@
 
 Normal reproducible run:
 
-    python src/fetch_data.py
-
+    FETCH_LIVE=0 python src/fetch_data.py
+    
 REQUIREMENTS API KEYS
 Keys are read from environment variables and are never written to files
 Live OpenAQ access uses ``OPENAQ_API_KEY`` >>  You can get at https://docs.openaq.org/using-the-api/api-key
