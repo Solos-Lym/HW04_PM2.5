@@ -7,7 +7,7 @@ RESULT,MACHINE_READABLE_MODEL_RESULT,warning_metrics.csv,outputs/modeling/result
 RESULT,MACHINE_READABLE_MODEL_RESULT,cross_validation_results.csv,outputs/modeling/results/cross_validation_results.csv,8.0
 RESULT,MACHINE_READABLE_MODEL_RESULT,province_season_errors.csv,outputs/modeling/results/province_season_errors.csv,24.0
 RESULT,MACHINE_READABLE_MODEL_RESULT,feature_importance.csv,outputs/modeling/results/feature_importance.csv,32.0
-RESULT,MACHINE_READABLE_MODEL_RESULT,modeling_summary.json,outputs/modeling/results/modeling_summary.json,
+RESULT,MACHINE_READABLE_MODEL_RESULT,modeling_summary.json,outputs/modeling/modeling_summary.json,
 MODEL,SELECTED_FITTED_PIPELINE,selected_random_forest.joblib,outputs/models/selected_random_forest.joblib,
 TABLE,MAIN_TABLE_3,pm25_respi.csv,outputs/analysis/tables/pm25_respi.csv,3.0
 FIGURE,MAIN_FIGURE_4,fig04_model_comparison.png,outputs/analysis/figures/fig04_model_comparison.png,
