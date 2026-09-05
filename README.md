@@ -100,9 +100,10 @@ cd "<repository-root>"
 pwd
 ls
 ls src
+ls check_dataset.py
 ~~~
 
-The <code>ls src</code> output must include all six filenames above. Do not use the older names <code>analyse.py</code> or <code>model.py</code>.
+The <code>src/</code> directory contains five scripts. <code>check_dataset.py</code> is located in the repository root. Do not use the older names <code>analyse.py</code> or <code>model.py</code>.
 
 #### 0.2 Create the Python environment
 
@@ -260,7 +261,7 @@ Keep keys in environment variables. Do not put them inside Python files or commi
 
 #### 1.2 Frozen choice
 
-Do not run a separate acquisition command here. Go directly to **Process 6**, whose first command runs <code>fetch_data.py</code> in setting FETCH_LIVE=0 explicitly to use Frozen mode. The script defaults to Live mode when this variable is unset..
+Do not run a separate acquisition command here. Go directly to **Process 6**, and explicitly set <code>FETCH_LIVE=0</code> before running <code>fetch_data.py</code>. The script defaults to Live mode when this variable is unset.
 
 #### 1.3 Run Live acquisition
 
@@ -767,7 +768,7 @@ No additional command is required.
 
 Use Process 6 immediately after Process 0 when the **Frozen** route is selected. Do not run Processes 1–5 separately first.
 
-Before running, make sure <code>FETCH_LIVE</code> is not set to <code>1</code>. With no Live flag, <code>fetch_data.py</code> uses Frozen mode by default.
+Before running, explicitly set <code>FETCH_LIVE=0</code>. The script defaults to Live mode when this variable is unset.
 
 #### 6.1 Run all scripts in order
 
@@ -834,7 +835,7 @@ Process 6 creates the same acquisition, preparation, gate, descriptive, AT1, and
 
 | Check | REFERENCE RUN value | Verify in |
 |---|---:|---|
-| Observed-target rows | 10,047 | <code>analysis_summary.json</code> |
+| Observed-target rows | 10,047 | <code>outputs/quality/table_quality_report.csv</code>, row <code>observepm25_provinceday.csv</code> |
 | AT1 model-ready rows | 8,222 | <code>analysis_summary.json</code> |
 | AT1 TRAIN / VALIDATION / TEST rows | 3,657 / 2,153 / 2,412 | <code>modeling_summary.json</code> |
 | Selected AT1 model | <code>RF_WITH_HOTSPOTS</code> | <code>modeling_summary.json</code> |
@@ -869,7 +870,7 @@ Process 6 creates the same acquisition, preparation, gate, descriptive, AT1, and
 | 3 | Gate returns <code>NOT YET FEASIBLE</code> | Open <code>feasibility_report.md</code> and resolve every failure |
 | 4 | A figure is missing or blank | Fix the first <code>analysis.py</code> error and rerun Process 4 |
 | 5 | Modeling input is missing | Rerun Process 4, then Process 5 |
-| 6 | The run started in Live mode | Unset <code>FETCH_LIVE</code> and restart Process 6 |
+| 6 | The run started in Live mode | Set <code>FETCH_LIVE=0</code> and restart Process 6 |
 
 ### References
 
