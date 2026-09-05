@@ -494,7 +494,7 @@ python src/analysis.py
 |---|---|---|
 | <code>Creating model-ready datasets</code> | AT1 and AT2 inputs are being created | Continue |
 | <code>Creating eight pre-model report tables</code> | Descriptive tables are being written | Continue |
-| <code>Creating report Figure 1 plus twelve supporting figures</code> | Descriptive images are being written | Continue |
+| <code>Creating report Figures 1-3 and Supplementary Figures S1-S6</code> | Descriptive images are being written | Continue |
 | <code>Analysis completed successfully.</code> | All declared outputs were created | Verify outputs |
 | Missing-input, duplicate-key, or missing-feature error | Process 2 output is not valid for analysis | Stop and correct Process 2 |
 
@@ -521,19 +521,15 @@ outputs/analysis/tables/hospital_capacity.csv
 **Descriptive figures**
 
 ~~~text
-outputs/analysis/figures/fig01_pm25_descriptive_overview.png
-outputs/analysis/figures/figS01_data_coverage.png
-outputs/analysis/figures/figS02_pm25_temporal_trend.png
-outputs/analysis/figures/figS03_hotspot_pm25_relationship.png
-outputs/analysis/figures/figS04_pm25_distribution_by_province.png
-outputs/analysis/figures/figS05_pm25_exceedance.png
-outputs/analysis/figures/figS06_weather_pm25_relationship.png
-outputs/analysis/figures/figS07_predictor_correlation.png
-outputs/analysis/figures/figS08_observed_modeled_benchmark.png
-outputs/analysis/figures/figS09_hospital_capacity.png
-outputs/analysis/figures/figS10_sensor_location_map.png
-outputs/analysis/figures/figS11_model_eligibility_by_split.png
-outputs/analysis/figures/figS12_pm25_observation_coverage.png
+outputs/analysis/figures/fig01_pm25_coverage_and_patterns.png
+outputs/analysis/figures/fig02_pm25_exceedance.png
+outputs/analysis/figures/fig03_environmental_factors.png
+outputs/analysis/figures/figS01_pm25_descriptive_overview.png
+outputs/analysis/figures/figS02_data_coverage.png
+outputs/analysis/figures/figS03_pm25_distribution_by_province.png
+outputs/analysis/figures/figS04_observed_modeled_benchmark.png
+outputs/analysis/figures/figS05_hospital_capacity.png
+outputs/analysis/figures/figS06_model_eligibility_by_split.png
 ~~~
 
 **Control outputs**
@@ -550,7 +546,7 @@ No additional command is required. Open <code>analysis_manifest.csv</code> and c
 
 - two model-ready files exist and are not empty;
 - eight descriptive tables exist;
-- thirteen PNG figures exist and open correctly;
+- nine PNG figures exist and open correctly;
 - <code>analysis_summary.json</code> agrees with the manifest.
 
 > 🟦 **Optional**  
@@ -617,10 +613,11 @@ outputs/analysis/tables/pm25_respi.csv
 outputs/modeling/modeling_summary.json
 outputs/modeling/modeling_manifest.csv
 outputs/models/selected_random_forest.joblib
-outputs/analysis/figures/fig02_model_comparison.png
-outputs/analysis/figures/fig03_test_predictions.png
-outputs/analysis/figures/fig04_error_by_province_season.png
-outputs/analysis/figures/fig05_at2_exploratory_association.png
+outputs/analysis/figures/fig04_model_comparison.png
+outputs/analysis/figures/fig05_warning_error_diagnostics.png
+outputs/analysis/figures/fig06_at2_exploratory_association.png
+outputs/analysis/figures/figS07_test_predictions_detail.png
+outputs/analysis/figures/figS08_error_by_province_season_detail.png
 ~~~
 
 #### 5.2 Verify AT1 and AT2
@@ -734,23 +731,20 @@ No additional command is required.
     │   │   ├── hospital_capacity.csv
     │   │   └── pm25_respi.csv
     │   └── figures/
-    │       ├── fig01_pm25_descriptive_overview.png
-    │       ├── fig02_model_comparison.png
-    │       ├── fig03_test_predictions.png
-    │       ├── fig04_error_by_province_season.png
-    │       ├── fig05_at2_exploratory_association.png
-    │       ├── figS01_data_coverage.png
-    │       ├── figS02_pm25_temporal_trend.png
-    │       ├── figS03_hotspot_pm25_relationship.png
-    │       ├── figS04_pm25_distribution_by_province.png
-    │       ├── figS05_pm25_exceedance.png
-    │       ├── figS06_weather_pm25_relationship.png
-    │       ├── figS07_predictor_correlation.png
-    │       ├── figS08_observed_modeled_benchmark.png
-    │       ├── figS09_hospital_capacity.png
-    │       ├── figS10_sensor_location_map.png
-    │       ├── figS11_model_eligibility_by_split.png
-    │       └── figS12_pm25_observation_coverage.png
+    │       ├── fig01_pm25_coverage_and_patterns.png
+    │       ├── fig02_pm25_exceedance.png
+    │       ├── fig03_environmental_factors.png
+    │       ├── fig04_model_comparison.png
+    │       ├── fig05_warning_error_diagnostics.png
+    │       ├── fig06_at2_exploratory_association.png
+    │       ├── figS01_pm25_descriptive_overview.png
+    │       ├── figS02_data_coverage.png
+    │       ├── figS03_pm25_distribution_by_province.png
+    │       ├── figS04_observed_modeled_benchmark.png
+    │       ├── figS05_hospital_capacity.png
+    │       ├── figS06_model_eligibility_by_split.png
+    │       ├── figS07_test_predictions_detail.png
+    │       └── figS08_error_by_province_season_detail.png
     ├── modeling/
     │   ├── modeling_summary.json
     │   ├── modeling_manifest.csv
@@ -851,7 +845,7 @@ Process 6 creates the same acquisition, preparation, gate, descriptive, AT1, and
 | AT2 model-ready rows | 35 | <code>analysis_summary.json</code> |
 | AT2 Spearman result | ρ = −0.655; p < 0.001 | <code>pm25_respi.csv</code> |
 | AT2 adjusted OLS-HC3 result | coefficient = +12.98; 95% CI −30.59 to +56.55; p = 0.544 | <code>pm25_respi.csv</code> |
-| Descriptive outputs from <code>analysis.py</code> | 8 tables and 13 figures | <code>analysis_manifest.csv</code> |
+| Descriptive outputs from <code>analysis.py</code> | 8 tables and 9 figures | <code>analysis_manifest.csv</code> |
 
 > 🟣 **How to use the REFERENCE RUN**  
 > First confirm that every script completed and the feasibility gate has zero failures. Then compare the generated summaries and CSV files with this table. A numerical difference is a review signal only. Never edit an output CSV to force it to match the REFERENCE RUN.
