@@ -260,7 +260,7 @@ Keep keys in environment variables. Do not put them inside Python files or commi
 
 #### 1.2 Frozen choice
 
-Do not run a separate acquisition command here. Go directly to **Process 6**, whose first command runs <code>fetch_data.py</code> in its default Frozen mode.
+Do not run a separate acquisition command here. Go directly to **Process 6**, whose first command runs <code>fetch_data.py</code> in setting FETCH_LIVE=0 explicitly to use Frozen mode. The script defaults to Live mode when this variable is unset..
 
 #### 1.3 Run Live acquisition
 
@@ -793,6 +793,7 @@ data/raw/**
 Run these same commands, in this order:
 
 ~~~bash
+export FETCH_LIVE=0
 python src/fetch_data.py
 python src/prepare_tables.py
 python src/prepare_data.py
@@ -909,9 +910,8 @@ Generative AI was used to organize and edit this run guide and to cross-check co
 
 ## Report
 
-PDF file report: report/report.pdf
-PDF supplement tables and figures: report/supplement.pdf
-VDO presentation: report/presentation.mp4
-Youtube link: report/youtube_link.txt
-VDO unlisted youtube link: https://youtu.be/6GcEJrkdypA?si=HnrfhERILaRKIuPM
-Reseracher student ID: report/student_check.txt
+- PDF file report: report/report.pdf
+- PDF supplement tables and figures: report/supplement.pdf
+- Youtube link: report/youtube_link.txt
+- VDO unlisted youtube link: https://youtu.be/6GcEJrkdypA?si=HnrfhERILaRKIuPM
+- Reseracher student ID: report/student_check.txt
