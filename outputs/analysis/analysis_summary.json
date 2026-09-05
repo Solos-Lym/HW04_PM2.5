@@ -1,0 +1,18 @@
+{
+  "project_directory": "/Users/tiggerreborn/Documents/Test",
+  "input_directory": "/Users/tiggerreborn/Documents/Test/data/processed/analysis_ready",
+  "model_ready_directory": "/Users/tiggerreborn/Documents/Test/data/processed/model_ready",
+  "table_directory": "/Users/tiggerreborn/Documents/Test/outputs/analysis/tables",
+  "figure_directory": "/Users/tiggerreborn/Documents/Test/outputs/analysis/figures",
+  "at1_model_ready_rows": 8222,
+  "at2_model_ready_rows": 35,
+  "report_table_count": 8,
+  "main_table_count": 2,
+  "supplement_table_count": 6,
+  "figure_count": 9,
+  "main_figure_count": 3,
+  "supplement_figure_count": 6,
+  "correlation_data_split": "TRAIN",
+  "correlation_feature_count": 24,
+  "correlation_feature_selection": "NONE; ALL PRE-SPECIFIED FEATURES REPORTED"
+}

@@ -1,0 +1,9 @@
+﻿analytical_table,source_table,merge_keys,validated_relationship,left_rows_before,rows_after,matched_rows,unmatched_rows,matched_pct,required_for_primary_model,row_count_preserved
+AT1,observed_pm25,province_key;analysis_date,one_to_one,13656,13656,10047,3609,73.57205623901581,True,True
+AT1,weather,province_key;analysis_date,one_to_one,13656,13656,13656,0,100.0,True,True
+AT1,modeled_pm25,province_key;analysis_date,one_to_one,13656,13656,9968,3688,72.99355594610427,False,True
+AT1,hotspots,province_key;analysis_date,one_to_one,13656,13656,13656,0,100.0,True,True
+AT2,respiratory,province_key;year_month,one_to_one,288,288,152,136,52.77777777777778,False,True
+AT2,observed_pm25_monthly,province_key;year_month,one_to_one,288,288,288,0,100.0,False,True
+AT2,population,province_key;year_ce,many_to_one,288,288,288,0,100.0,False,True
+AT2,hospital_capacity,province_key,many_to_one,288,288,288,0,100.0,False,True

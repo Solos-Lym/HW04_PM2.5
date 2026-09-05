@@ -1,0 +1,12 @@
+﻿table,row_count,column_count,primary_key,missing_primary_key_rows,exact_duplicate_rows,duplicate_primary_key_rows,missing_cell_count,invalid_province_key_rows,status
+provinces.csv,8,5,province_key,0,0,0,0,0,PASS
+location.csv,160,9,location_id,0,0,0,0,0,PASS
+observepm25_sensorday.csv,64732,14,sensor_id;analysis_date,0,0,0,26,0,REVIEW
+observepm25_provinceday.csv,10047,10,province_key;analysis_date,0,0,0,3199,0,REVIEW
+weather_provinceday.csv,17536,8,province_key;analysis_date,0,0,0,0,0,PASS
+modelpm25_provinceday.csv,9968,5,province_key;analysis_date,0,0,0,0,0,PASS
+hotspot.csv,13680,18,province_key;analysis_date,0,0,0,0,0,PASS
+facility.csv,3747,2,facility_key,0,0,0,0,0,PASS
+population.csv,32,5,province_key;year_ce,0,0,0,0,0,PASS
+hospital.csv,153,3,facility_key,0,0,0,0,0,PASS
+diagnosis.csv,152,6,province_key;year_month,0,0,0,0,0,PASS

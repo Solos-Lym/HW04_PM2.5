@@ -1,0 +1,17 @@
+# Session Info 
+# python==3.12.13
+# Versions of packages that used in this projects 
+# Versions are pinned to the environment used for the final verification run.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+seaborn==0.13.2
+joblib==1.5.3
+statsmodels==0.15.0
+patsy==1.0.3
+formulaic==1.2.2
+lxml==6.1.1
+plotly==7.0.0
+narwhals==2.25.0

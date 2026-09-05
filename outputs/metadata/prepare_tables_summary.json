@@ -1,0 +1,6 @@
+{
+  "failed_key_integrity_tables": [],
+  "quality_report_directory": "/Users/tiggerreborn/Documents/Test/outputs/quality",
+  "source_table_directory": "/Users/tiggerreborn/Documents/Test/data/processed/source_tables",
+  "table_count": 11
+}

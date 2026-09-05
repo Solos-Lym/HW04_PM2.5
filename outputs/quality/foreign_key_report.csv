@@ -1,0 +1,12 @@
+﻿table,foreign_key,invalid_row_count,status
+provinces.csv,province_key,0,PASS
+location.csv,province_key,0,PASS
+observepm25_sensorday.csv,province_key,0,PASS
+observepm25_provinceday.csv,province_key,0,PASS
+weather_provinceday.csv,province_key,0,PASS
+modelpm25_provinceday.csv,province_key,0,PASS
+hotspot.csv,province_key,0,PASS
+facility.csv,province_key,0,PASS
+population.csv,province_key,0,PASS
+hospital.csv,province_key,0,PASS
+diagnosis.csv,province_key,0,PASS

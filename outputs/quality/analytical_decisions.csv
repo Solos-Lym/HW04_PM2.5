@@ -1,0 +1,12 @@
+﻿decision,implementation,reason
+AT1 grain,One row per study province and Bangkok calendar date,Creates a complete grid before left merges so missing source data remain visible
+AT1 target,Observed province-day median PM2.5 on date t,The primary question predicts the next day's observed PM2.5
+PM predictors,"Observed PM2.5 from t-1, t-2, and t-3",Known before the target day and captures persistence
+Weather predictors,Weather from t-1,Avoid same-day information that would not be known for a strict one-day-ahead prediction
+Hotspot predictors,"Thailand hotspot counts from t-1, t-2, and t-3",Avoid target-day leakage; cross-border counts remain available for descriptive analysis
+Calendar predictors,Sine and cosine of target day-of-year,Target calendar date is known at prediction time and represents seasonality
+Data split,"2021-2023 train, 2024 validation, 2025 test",Preserve temporal order and avoid an ordinary random split
+Baseline,Previous-day observed PM2.5,A persistence baseline is appropriate for daily air-pollution forecasting
+Model-ready subset,Keep only rows with target and every main predictor,No imputation is performed; all exclusions are reported
+AT2 grain,"One row per study province and month, 2023-2025",Align monthly respiratory counts with monthly PM2.5 and annual/contextual covariates
+AT2 interpretation,Exploratory association and capacity context only,DDC reporting and undated bed context do not establish historical admissions or causal effects

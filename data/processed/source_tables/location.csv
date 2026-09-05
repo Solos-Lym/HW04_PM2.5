@@ -1,0 +1,161 @@
+﻿location_id,location_name,province_key,province_name_th,province_name_en,distance_to_province_centroid_km,latitude,longitude,timezone
+1486,"Mae Mo, Mae Mo",52,ลำปาง,Lampang,18.214,18.279680637193,99.663144703624,Asia/Bangkok
+2287,"Na Chak, Mueang",54,แพร่,Phrae,3.354,18.12614,100.1654,Asia/Bangkok
+2304,"Sop Pat, Mae Mo",52,ลำปาง,Lampang,29.497,18.247769049494,99.766891808156,Asia/Bangkok
+2325,"Wiang, Mueang",56,พะเยา,Phayao,28.313,19.190056,100.170326,Asia/Bangkok
+2328,"Natural Resources and Environment Office, Chiangrai",57,เชียงราย,Chiang Rai,1.797,19.909217,99.823467,Asia/Bangkok
+2411,Health Promotion Hospital Banthasri,52,ลำปาง,Lampang,32.06,18.4267833,99.7576333,Asia/Bangkok
+2429,"Chong Kham, Mueang",58,แม่ฮ่องสอน,Mae Hong Son,0.477,19.304501021455,97.971525255487,Asia/Bangkok
+5938,"Nai Mueang, Mueang",51,ลำพูน,Lamphun,1.117,18.564721437399,99.011144750057,Asia/Bangkok
+225567,Maesai Health Office,57,เชียงราย,Chiang Rai,57.645,20.427325,99.883842,Asia/Bangkok
+225570,"Meteorological stations, Lampang",52,ลำปาง,Lampang,2.014,18.2783333,99.5064666,Asia/Bangkok
+225579,Yupparaj Wittayalai School,50,เชียงใหม่,Chiang Mai,0.575,18.7909333,98.99,Asia/Bangkok
+225583,Mobile Air Quality Monitoring unit No.04,50,เชียงใหม่,Chiang Mai,9.488,18.804718,98.896851,Asia/Bangkok
+225597,"Municipality Office, Uttaradit",54,แพร่,Phrae,58.151,17.62333,100.096111,Asia/Bangkok
+225630,"Meteorology Center, Phrae",54,แพร่,Phrae,2.954,18.1283666,100.16243330000002,Asia/Bangkok
+225646,Provincial Waterworks Authority Mae Moh,52,ลำปาง,Lampang,17.847,18.2826333,99.6598166,Asia/Bangkok
+225648,"Natural Resources and Environment Office, Mae Hongson",58,แม่ฮ่องสอน,Mae Hong Son,0.49,19.30455,97.97165,Asia/Bangkok
+225655,"Meteorological Staions, Lamphun",51,ลำพูน,Lamphun,3.259,18.567194,99.038639,Asia/Bangkok
+225666,"Phayao Provincial, Phayao",56,พะเยา,Phayao,3.864,19.200226,99.893048,Asia/Bangkok
+225669,"City Hall, Chiangmai",50,เชียงใหม่,Chiang Mai,6.055,18.840732,98.96978,Asia/Bangkok
+225674,"Municipality Office, Nan",55,น่าน,Nan,1.518,18.7888833,100.7763166,Asia/Bangkok
+225692,"Health Promotion Hospital Sob Pad, Lampang",52,ลำปาง,Lampang,29.139,18.2508166,99.76395,Asia/Bangkok
+225693,"Debaratana Vejjanukul Hospital, Mae Chaem",51,ลำพูน,Lamphun,66.879,18.498333,98.379444,Asia/Bangkok
+228543,"72nd Anniversary King Bhumibol Public Park, Uttaradit",54,แพร่,Phrae,57.238,17.631351999999996,100.09896000000002,Asia/Bangkok
+270292,Ban Pa Bong School,50,เชียงใหม่,Chiang Mai,61.0,19.336111,98.954444,Asia/Bangkok
+278637,Chiang Khong District Public Health Office,57,เชียงราย,Chiang Rai,70.758,20.258611,100.407778,Asia/Bangkok
+387511,Wiang Subdistrict Disaster Prevention and Mitigation Center,57,เชียงราย,Chiang Rai,70.23,20.2575,100.4025,Asia/Bangkok
+387660,Mueang Na Subdistrict Municipality Office,50,เชียงใหม่,Chiang Mai,89.612,19.593889,98.961667,Asia/Bangkok
+388656,"Chiang Mai Provincial Administrative Organization Office, Intersection (Southern Area)",51,ลำพูน,Lamphun,59.694,18.175,98.630833,Asia/Bangkok
+388962,Li District Office,52,ลำปาง,Lampang,78.747,17.802222,98.949722,Asia/Bangkok
+500068,Pai Municipality,58,แม่ฮ่องสอน,Mae Hong Son,49.523,19.3591522,98.4364794,Asia/Bangkok
+523937,Tha Kham Municipality Office,51,ลำพูน,Lamphun,59.989,18.202222,98.597222,Asia/Bangkok
+1235996,"Vieng Nua, Pai",58,แม่ฮ่องสอน,Mae Hong Son,50.719,19.374620435850545,98.44561078410078,Asia/Bangkok
+1235999,NARIT ASTROPARK (Parking),50,เชียงใหม่,Chiang Mai,7.809,18.85345541310349,98.9576060087058,Asia/Bangkok
+1236013,"Soemngamwitthayakhom School 2, Some-Ngam, Lampang",52,ลำปาง,Lampang,1.484,18.279805533636747,99.48051196520773,Asia/Bangkok
+1236014,NARIT​-OPD,50,เชียงใหม่,Chiang Mai,7.708,18.85275424506312,98.95834692689932,Asia/Bangkok
+1236022,แม่กวง,50,เชียงใหม่,Chiang Mai,8.241,18.8266136,99.0523185,Asia/Bangkok
+1236024,สันโป่ง,50,เชียงใหม่,Chiang Mai,16.862,18.9375111,98.9566944,Asia/Bangkok
+1236040,"Kaenoisuksa School 1, Chiang Dao, Chiang Mai",50,เชียงใหม่,Chiang Mai,67.698,19.394767432705724,98.92874614493202,Asia/Bangkok
+1236050,Prem Tinsulanonda International School 1,50,เชียงใหม่,Chiang Mai,20.717,18.96255421231335,98.91562786546136,Asia/Bangkok
+1236066,NARIT ASTROPARK (Research building),50,เชียงใหม่,Chiang Mai,7.597,18.851438300930976,98.95771486398864,Asia/Bangkok
+1305707,"Khunyuam Wittaya School 2, Khunyuam, Maehongson",58,แม่ฮ่องสอน,Mae Hong Son,51.671,18.837399394128656,97.9399507166046,Asia/Bangkok
+1405439,"Chomthong School 1, Chomthong, Chiang Mai",51,ลำพูน,Lamphun,38.237,18.435156957109033,98.67718182473789,Asia/Bangkok
+1641552,วังหมุ้น,50,เชียงใหม่,Chiang Mai,17.502,18.945298569548378,98.97347979467268,Asia/Bangkok
+1641558,Prem Tinsulanonda International School 2,50,เชียงใหม่,Chiang Mai,21.149,18.966512871928927,98.91508369562034,Asia/Bangkok
+1646752,ดาดฟ้า,50,เชียงใหม่,Chiang Mai,16.197,18.932618966437307,98.96445032014384,Asia/Bangkok
+1753562,บ้านร้องเกิด,50,เชียงใหม่,Chiang Mai,15.659,18.92786395211318,98.96541049234524,Asia/Bangkok
+1753563,ดวงดี,50,เชียงใหม่,Chiang Mai,15.014,18.91977780483509,98.95279736395602,Asia/Bangkok
+1753564,แก้วสา,50,เชียงใหม่,Chiang Mai,16.148,18.928286035684813,98.94445179435796,Asia/Bangkok
+1861095,Wiang Subdistrict Disaster Prevention and Mitigation Center,50,เชียงใหม่,Chiang Mai,9.095,18.804894,98.900698,Asia/Bangkok
+1861445,"Fangchanupathum School 1, Fang, Chiang Mai",57,เชียงราย,Chiang Rai,69.333,19.863943477644817,99.17937755730452,Asia/Bangkok
+1864570,"Provincial Electricity Authority, Hot District Branch",51,ลำพูน,Lamphun,61.337,18.172495,98.61069,Asia/Bangkok
+1896059,Pai Airport,58,แม่ฮ่องสอน,Mae Hong Son,49.568,19.364055,98.436205,Asia/Bangkok
+1896763,Pai Airport,58,แม่ฮ่องสอน,Mae Hong Son,49.633,19.369637,98.43596,Asia/Bangkok
+1935353,Chiang Mai,50,เชียงใหม่,Chiang Mai,1.56,18.77435504104218,98.98365627447588,Asia/Bangkok
+2041043,Mae Ann,50,เชียงใหม่,Chiang Mai,23.251,18.971315125096535,98.8784122467041,Asia/Bangkok
+2124016,Wiang Nuea Beverly Hills Goat Farm,58,แม่ฮ่องสอน,Mae Hong Son,52.382,19.385584,98.459714,Asia/Bangkok
+2136949,Pai: Wednesday Market,58,แม่ฮ่องสอน,Mae Hong Son,49.913,19.351845,98.4411552,Asia/Bangkok
+2142493,Wiang Nuea Beverly Hills Hua Chang Dam,58,แม่ฮ่องสอน,Mae Hong Son,52.874,19.383934,98.464782,Asia/Bangkok
+2142801,Wiang Nuea: Wat Phra Phutthabat,58,แม่ฮ่องสอน,Mae Hong Son,51.853,19.3910772,98.4534912,Asia/Bangkok
+2146217,Pai: Seng Tong Market,58,แม่ฮ่องสอน,Mae Hong Son,49.667,19.3573394,98.4381079,Asia/Bangkok
+2147304,Tin That,58,แม่ฮ่องสอน,Mae Hong Son,49.448,19.3172193,98.439397,Asia/Bangkok
+2151718,Wiang Nuea Moat,58,แม่ฮ่องสอน,Mae Hong Son,50.699,19.3747778,98.4453889,Asia/Bangkok
+2154067,Kung Kaeng: Pai Munchkins Club / PLearn Pai Bilingual Learning Center,58,แม่ฮ่องสอน,Mae Hong Son,49.202,19.342108,98.435391,Asia/Bangkok
+2155602,Mae Hi: Bueng Pai Farm,58,แม่ฮ่องสอน,Mae Hong Son,50.377,19.344337,98.446422,Asia/Bangkok
+2158149,Pai: Dr. Neung Clinic near PTT gas station,58,แม่ฮ่องสอน,Mae Hong Son,49.492,19.355492,98.436671,Asia/Bangkok
+2165656,Mae Yen: Ing Doi Guesthouse,58,แม่ฮ่องสอน,Mae Hong Son,50.747,19.355916,98.448666,Asia/Bangkok
+2169936,Hang Dong / Sameong,50,เชียงใหม่,Chiang Mai,9.608,18.719434,98.930183,Asia/Bangkok
+2174592,Chiang moi,50,เชียงใหม่,Chiang Mai,1.122,18.78987,98.99583,Asia/Bangkok
+2297552,Tha Pai Hot Springs,58,แม่ฮ่องสอน,Mae Hong Son,53.005,19.307811,98.473538,Asia/Bangkok
+2315448,Muang Soi Health Center,58,แม่ฮ่องสอน,Mae Hong Son,46.949,19.395894,98.404624,Asia/Bangkok
+2327978,Mae Hi: Pittalew Art Gallery,58,แม่ฮ่องสอน,Mae Hong Son,51.098,19.344769,98.453281,Asia/Bangkok
+2340282,Paina Paita Home (near Coffee In Love),58,แม่ฮ่องสอน,Mae Hong Son,48.814,19.336754,98.43217,Asia/Bangkok
+2375197,Mae Khong Border Patrol,58,แม่ฮ่องสอน,Mae Hong Son,50.053,19.385612,98.437128,Asia/Bangkok
+2379288,Sahakorn 5,50,เชียงใหม่,Chiang Mai,30.058,18.857987,99.261237,Asia/Bangkok
+2384279,Mae Na Toeng School,58,แม่ฮ่องสอน,Mae Hong Son,48.583,19.393767,98.42108,Asia/Bangkok
+2384280,Wiang Nuea Moo 8 Mayor,58,แม่ฮ่องสอน,Mae Hong Son,50.795,19.379253,98.445529,Asia/Bangkok
+2384585,Mae Khong Health Center,58,แม่ฮ่องสอน,Mae Hong Son,50.302,19.385735,98.439518,Asia/Bangkok
+2393909,Pai: NT/TOT office near Pai Hospital,58,แม่ฮ่องสอน,Mae Hong Son,49.679,19.3621389,98.4375556,Asia/Bangkok
+2429011,The Mud House by CMG,50,เชียงใหม่,Chiang Mai,11.671,18.7069018,98.9153218,Asia/Bangkok
+2429963,Mae Ping Health Center,58,แม่ฮ่องสอน,Mae Hong Son,52.472,19.28607,98.468214,Asia/Bangkok
+2432814, ไดมอนด์,50,เชียงใหม่,Chiang Mai,17.66,18.941970789965023,98.94292144786002,Asia/Bangkok
+2439091,Wiang Nuea: Mon Far Pai Cottages,58,แม่ฮ่องสอน,Mae Hong Son,51.086,19.369755,98.449955,Asia/Bangkok
+2439859,Wat Mo Paeng,58,แม่ฮ่องสอน,Mae Hong Son,45.742,19.379659,98.396488,Asia/Bangkok
+2457250,Muang Rae Police Box,58,แม่ฮ่องสอน,Mae Hong Son,50.939,19.241398,98.44963,Asia/Bangkok
+2461311,The Mud House by CMG,50,เชียงใหม่,Chiang Mai,11.657,18.70707013718418,98.91531793782238,Asia/Bangkok
+2470105,Pai: Paiformance Gym,58,แม่ฮ่องสอน,Mae Hong Son,49.605,19.353232,98.438033,Asia/Bangkok
+2474515,Thung Yao South (near Two Huts),58,แม่ฮ่องสอน,Mae Hong Son,50.407,19.317546,98.448532,Asia/Bangkok
+2492986,The Hideaway Village (near Wat Sop Phaem),58,แม่ฮ่องสอน,Mae Hong Son,49.812,19.299787,98.443144,Asia/Bangkok
+2510432,Pa Yang School,58,แม่ฮ่องสอน,Mae Hong Son,45.142,19.395591,98.387011,Asia/Bangkok
+2523394,Pai Immigration ,58,แม่ฮ่องสอน,Mae Hong Son,49.818,19.361656,98.438967,Asia/Bangkok
+2575375,สันโป่ง,50,เชียงใหม่,Chiang Mai,17.66,18.941970789965023,98.94292144786002,Asia/Bangkok
+2807918,ป่ากล้วย,50,เชียงใหม่,Chiang Mai,16.451,18.93526969234408,98.96733918346216,Asia/Bangkok
+2811594,โรงเรียนบ้านสวนดอกท่าขันทองสามัคคี,57,เชียงราย,Chiang Rai,54.439,20.287929573666037,100.17265393993704,Asia/Bangkok
+2811741,โรงเรียนบ้านเหมืองง่า,57,เชียงราย,Chiang Rai,37.808,19.57391036865655,99.78945966307552,Asia/Bangkok
+2811857,โรงเรียนบ้านงิ้วใหม่,57,เชียงราย,Chiang Rai,36.799,19.683041089169024,100.09608268612229,Asia/Bangkok
+2811859,เวียงเชียงรุ้ง   จ.เชียงราย,57,เชียงราย,Chiang Rai,26.293,20.01478348661569,100.06638223958372,Asia/Bangkok
+2813725,โรงเรียนอนุบาลพาน,57,เชียงราย,Chiang Rai,42.947,19.535827619120635,99.74097750939806,Asia/Bangkok
+2813978,โรงเรียนบ่อเกลือ,55,น่าน,Nan,52.715,19.079081341720972,101.15802814887805,Asia/Bangkok
+2821337,โรงเรียนผ่านศึกสงเคราะห์ 2,57,เชียงราย,Chiang Rai,37.425,20.1738211256972,100.0637395138998,Asia/Bangkok
+2827389,"Saraphi, Chiang Mai",50,เชียงใหม่,Chiang Mai,12.636,18.69092576903741,99.04716043182036,Asia/Bangkok
+2827390,โรงเรียนขุนยวมวิทยา,58,แม่ฮ่องสอน,Mae Hong Son,51.76,18.83658958412909,97.93999695256036,Asia/Bangkok
+2827396,โรงเรียนเสริมงามวิทยาคม,52,ลำปาง,Lampang,37.98,18.050391606682883,99.23346803905622,Asia/Bangkok
+2832600,โรงเรียนเสริมขวาวิทยา,52,ลำปาง,Lampang,35.298,18.129044618992815,99.20212951372334,Asia/Bangkok
+2843625,โรงเรียนศรีสังวาลย์เชียงใหม่,50,เชียงใหม่,Chiang Mai,14.382,18.91706462015052,98.99813940307877,Asia/Bangkok
+2843720,โรงเรียนราชประชานุเคราะห์ 56,55,น่าน,Nan,25.054,18.55614310402829,100.71911569413427,Asia/Bangkok
+2843771,โรงเรียนบ้านน้อยห้วยรินวิทยา,51,ลำพูน,Lamphun,70.947,18.02707441554263,98.66349112279283,Asia/Bangkok
+2847191,โรงเรียนบ้านกาศประชานุเคราะห์,54,แพร่,Phrae,7.684,18.082763142301825,100.17276032284325,Asia/Bangkok
+2847198,โรงเรียนบ้านหนองป่าก่อ,57,เชียงราย,Chiang Rai,40.835,20.172104137137712,100.11495065829588,Asia/Bangkok
+2847201,โรงเรียนชุมชนตำบลนายาง,52,ลำปาง,Lampang,45.908,17.914424417093098,99.30777676331051,Asia/Bangkok
+2847203,โรงเรียนบ้านเวียงแก้ว,57,เชียงราย,Chiang Rai,55.523,20.37799475180888,100.02748244236572,Asia/Bangkok
+2847206,โรงเรียนราชประชานุเคราะห์ 15,57,เชียงราย,Chiang Rai,47.987,20.27491375532466,100.08676619657707,Asia/Bangkok
+2848549,โรงเรียนบ้านห้วยเม็ง (ประสาทวิทย์),57,เชียงราย,Chiang Rai,71.378,20.297601712763186,100.38589414207362,Asia/Bangkok
+2856334,โรงเรียนบ้านขี้เหล็กดอยดินแดง,57,เชียงราย,Chiang Rai,32.458,20.192107282287857,99.92237810267108,Asia/Bangkok
+2908059,"Prem International School, The Pool",50,เชียงใหม่,Chiang Mai,20.717,18.962544060773418,98.91557422011076,Asia/Bangkok
+2926254,โรงเรียนบ้านวังลุง,51,ลำพูน,Lamphun,60.927,18.177309310650944,98.61097589156437,Asia/Bangkok
+2933523,โรงเรียนบ้านหัวเวียง (โกศัลย์วิทย์),57,เชียงราย,Chiang Rai,71.275,20.272634337603776,100.403771549016,Asia/Bangkok
+3002975,พระอาทิตย์ขึ้น สันโป่ง,50,เชียงใหม่,Chiang Mai,15.616,18.927,98.962,Asia/Bangkok
+3047340,"Maerim, Chiangmai",50,เชียงใหม่,Chiang Mai,16.493,18.932580910609936,98.94895059814412,Asia/Bangkok
+3350392,Mexico City Polanco,50,เชียงใหม่,Chiang Mai,75.122,19.434,99.1956,Asia/Bangkok
+3699664,บริษัท ไอ.ที.โกลโบล จำกัด,50,เชียงใหม่,Chiang Mai,7.233,18.7316881,98.9514679,Asia/Bangkok
+3891934,หมู่บ้านแก้วสา,50,เชียงใหม่,Chiang Mai,16.148,18.928286035684813,98.94445179435796,Asia/Bangkok
+3892436,วัดดวงดี,50,เชียงใหม่,Chiang Mai,15.014,18.91977780483509,98.95279736395602,Asia/Bangkok
+3892437,บ้านร้องเกิด,50,เชียงใหม่,Chiang Mai,15.659,18.92786395211318,98.96541049234524,Asia/Bangkok
+4588536,บ้านดอยน้อย,50,เชียงใหม่,Chiang Mai,16.35,18.9335,99.0098,Asia/Bangkok
+4932270,AirGradient Demo Dashboard,50,เชียงใหม่,Chiang Mai,32.994,18.900572,98.6950831,Asia/Bangkok
+5551122,7-eleven,50,เชียงใหม่,Chiang Mai,17.919,18.944416458815923,98.94308592870684,Asia/Bangkok
+5965756,The base hight,50,เชียงใหม่,Chiang Mai,3.683,18.8029938,99.01666,Asia/Bangkok
+6099600,Hakuna Matata Villas Phrae,54,แพร่,Phrae,23.281,18.306047430369297,100.28064817700624,Asia/Bangkok
+6115454,' ',50,เชียงใหม่,Chiang Mai,15.084,18.923649,98.975744,Asia/Bangkok
+6152097,NongHoi,50,เชียงใหม่,Chiang Mai,5.557,18.747511275645873,99.0158037871921,Asia/Bangkok
+6160761,Suthep,50,เชียงใหม่,Chiang Mai,2.614,18.785159,98.960696,Asia/Bangkok
+6167894,Tha Kham Municipality Office,50,เชียงใหม่,Chiang Mai,7.264,18.752222,98.927778,Asia/Bangkok
+6200540,โรงเรียนนิคมสร้างตนเองสงเคราะห์ขาวเขา,57,เชียงราย,Chiang Rai,31.017,20.18158879881544,99.7706405269282,Asia/Bangkok
+6207256,"Darunee Farm, Doi Lo",51,ลำพูน,Lamphun,22.709,18.559169677653216,98.79386831199298,Asia/Bangkok
+6217058,"Research Institute for Health Sciences (RIHES),. Chiang Mai University",50,เชียงใหม่,Chiang Mai,3.132,18.7948519,98.9563673,Asia/Bangkok
+6218293,Pa-Yang Wang Kaphi,54,แพร่,Phrae,63.357,17.575023,100.124236,Asia/Bangkok
+6221185,Mae  Rim,50,เชียงใหม่,Chiang Mai,16.94,18.93214606104985,98.93228799565615,Asia/Bangkok
+6225366,Sriphum,50,เชียงใหม่,Chiang Mai,0.423,18.7909333,98.9881964,Asia/Bangkok
+6230362,บ้านหัวหาด-คุ้งตะเภา,54,แพร่,Phrae,53.989,17.659754,100.167478,Asia/Bangkok
+6230395,ถนนตัดใหม่-แยกวัดอรัญฯ,54,แพร่,Phrae,56.807,17.63678,100.081672,Asia/Bangkok
+6244503,Thairoj Pharmacy,57,เชียงราย,Chiang Rai,70.491,20.25670103274936,100.40604193534264,Asia/Bangkok
+6265530,หนองผา,54,แพร่,Phrae,58.18,17.624569,100.079678,Asia/Bangkok
+6266258,"Doi Tung Royal Palace, Mae Fah Luang District, Chiang Rai Province",57,เชียงราย,Chiang Rai,42.044,20.28755518332941,99.81050726698746,Asia/Bangkok
+6266641,"Phaya Ngam Muang Auditorium, University of Phayao",56,พะเยา,Phayao,15.195,19.02991981606756,99.89736003675418,Asia/Bangkok
+6266678,ถนนพาดวารี-บขส,54,แพร่,Phrae,59.545,17.61106,100.092195,Asia/Bangkok
+6280774,Ornsirin 5,50,เชียงใหม่,Chiang Mai,9.917,18.71595715584073,99.04038033815908,Asia/Bangkok
+6284173,BAN HUAI THONG,50,เชียงใหม่,Chiang Mai,21.201,18.694757669804677,98.80986005428556,Asia/Bangkok
+6284174,Ban ThaGu School,51,ลำพูน,Lamphun,26.132,18.56113105313322,99.2562141742988,Asia/Bangkok
+6285048,Ban ThaPaPao School,51,ลำพูน,Lamphun,21.992,18.47725369479227,99.19033271945464,Asia/Bangkok
+6287521,"BANTHI, LAMPHUN",51,ลำพูน,Lamphun,14.307,18.65725,99.1126667,Asia/Bangkok
+6291444,AQ Guard (Ref),50,เชียงใหม่,Chiang Mai,17.851,18.943736,98.94288,Asia/Bangkok
+6291584,electronic lab San Tan Lueang,57,เชียงราย,Chiang Rai,3.939,19.945561,99.835221,Asia/Bangkok
+6291933,Mae Suai Hospital - MORU,57,เชียงราย,Chiang Rai,44.439,19.64230049026776,99.52573286824058,Asia/Bangkok
+6294442,The Elements Sauna & Ice Bath,50,เชียงใหม่,Chiang Mai,65.338,19.3759,98.9847,Asia/Bangkok
+6300553,TANYA Baan Bon Doi,57,เชียงราย,Chiang Rai,4.346,19.878066,99.817408,Asia/Bangkok
+6301503,Baan Doi Chang Health Promoting Hospital - MORU Network,57,เชียงราย,Chiang Rai,31.068,19.81932760680476,99.55978054677792,Asia/Bangkok
+6318469,The Nest School Chiang Mai,50,เชียงใหม่,Chiang Mai,11.312,18.697738285002185,98.93636359429838,Asia/Bangkok
+6364262,"Ban Doi Sombun, Doi Lan",57,เชียงราย,Chiang Rai,31.985,19.64273403027352,99.9522689315249,Asia/Bangkok
+6410306,Mae Ann,50,เชียงใหม่,Chiang Mai,22.5,18.97058,98.89246,Asia/Bangkok
+6419381,Ban ThaPaSak School,51,ลำพูน,Lamphun,24.766,18.544528710587837,99.24151158131208,Asia/Bangkok

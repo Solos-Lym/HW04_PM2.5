@@ -1,0 +1,12 @@
+﻿table,row_count,available_key_rows_in_analysis_scope,expected_key_rows_in_analysis_scope,coverage_pct,province_count,minimum_time_key,maximum_time_key
+provinces.csv,8,8,,,8,,
+location.csv,160,160,,,8,,
+observepm25_sensorday.csv,64732,64732,,,8,2021-04-30 00:00:00,2025-12-31 00:00:00
+observepm25_provinceday.csv,10047,10047,13656.0,73.57205623901582,8,2021-04-30 00:00:00,2025-12-31 00:00:00
+weather_provinceday.csv,17536,13656,13656.0,100.0,8,2020-01-01 00:00:00,2025-12-31 00:00:00
+modelpm25_provinceday.csv,9968,9968,,,8,2022-08-04 00:00:00,2025-12-31 00:00:00
+hotspot.csv,13680,13656,13656.0,100.0,8,2021-04-27 00:00:00,2025-12-31 00:00:00
+facility.csv,3747,3747,,,8,,
+population.csv,32,32,,,8,2022,2025
+hospital.csv,153,153,,,8,,
+diagnosis.csv,152,152,288.0,52.77777777777778,8,2023-01,2025-12

@@ -1,0 +1,13 @@
+﻿decision,implementation,reason
+OpenAQ eligibility,Keep daily sensor values from 0 to 500 µg/m³ with at least 75% coverage,Exclude implausible or insufficiently covered daily summaries
+Observed PM2.5 aggregation,"Use the median across eligible sensors for the primary province-day value; retain mean, range, SD, and counts",Median reduces sensitivity to disagreement between sensors without hiding coverage
+FIRMS product,Use VIIRS S-NPP Standard Processing only,Maintain one consistent satellite product
+FIRMS spatial filter,Clip every Area API response to its GADM 4.1 country boundary,The Area API bounding box contains points outside the requested country
+FIRMS confidence,Keep nominal and high confidence detections,Low-confidence detections are excluded from primary features
+FIRMS distance,"Count events by nearest eligible OpenAQ location within 0-50, 50-100, 100-300, and 300-500 km",Preserve distance information while keeping a province-day grain
+FIRMS zero,A complete downloaded day with no eligible event is stored as zero,Distinguish confirmed zero from an unavailable source
+Weather,Use Open-Meteo ERA5 daily values in Asia/Bangkok time,Match the province-day analytical grain
+Modeled PM2.5,Aggregate CAMS hourly values to daily mean and median,"Use as a descriptive benchmark, not the observed target"
+Respiratory definition,"Valid ICD-10 J00-J99 records with diagtype 1, 2, or 3",Retain principal and any-position respiratory counts separately
+Capacity,Use opened-bed values from the undated HAI AOD snapshot as context,"This is capacity context, not historical occupancy"
+Missing data,Do not impute source-table missing values,Missingness remains visible for coverage and eligibility checks

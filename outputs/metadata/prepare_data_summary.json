@@ -1,0 +1,18 @@
+{
+  "analysis_ready_directory": "/Users/tiggerreborn/Documents/Test/data/processed/analysis_ready",
+  "analysis_ready_files": [
+    "data_per_day.csv",
+    "env_data_full.csv",
+    "env_data_notnull.csv",
+    "respi_disease_data.csv"
+  ],
+  "at1_full_rows": 13656,
+  "at1_model_ready_rows": 8222,
+  "at1_province_day_rows": 13656,
+  "at2_rows": 288,
+  "data_dictionary_directory": "/Users/tiggerreborn/Documents/Test/outputs/metadata/data_dictionary",
+  "main_feature_count": 25,
+  "ordinary_random_split_used": false,
+  "same_day_environmental_predictors_used": false,
+  "target": "observed_pm25_median_ugm3"
+}

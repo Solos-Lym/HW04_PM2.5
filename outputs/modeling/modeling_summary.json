@@ -1,0 +1,38 @@
+{
+  "project_directory": "/Users/tiggerreborn/Documents/Test",
+  "at1_input_path": "/Users/tiggerreborn/Documents/Test/data/processed/model_ready/at1_model_ready.csv",
+  "at2_input_path": "/Users/tiggerreborn/Documents/Test/data/processed/model_ready/at2_model_ready.csv",
+  "selection_rule": "Lowest 2024 validation MAE, then RMSE; TEST never used for selection",
+  "selected_model": "RF_WITH_HOTSPOTS",
+  "selected_parameters": {
+    "n_estimators": 300,
+    "max_depth": 8,
+    "min_samples_leaf": 2,
+    "max_features": 1.0
+  },
+  "train_rows": 3657,
+  "validation_rows": 2153,
+  "test_rows": 2412,
+  "selected_validation_mae": 5.821913198246994,
+  "selected_test_mae": 4.369469200973577,
+  "selected_test_rmse": 7.534968474358062,
+  "selected_test_r_squared": 0.8913261945183532,
+  "hotspot_test_mae_relative_improvement_pct": 1.9815284487599631,
+  "warning_threshold_ugm3": 37.5,
+  "test_evaluated_after_selection": true,
+  "at2_model_ready_rows": 35,
+  "at2_result_rows": 3,
+  "at2_methods": [
+    "Spearman correlation",
+    "Univariable OLS with HC3 robust covariance",
+    "OLS-HC3 adjusted for province and cyclic calendar month"
+  ],
+  "at2_interpretation": "Exploratory association; not causal",
+  "figures": [
+    "fig04_model_comparison.png",
+    "fig05_warning_error_diagnostics.png",
+    "fig06_at2_exploratory_association.png",
+    "figS07_test_predictions_detail.png",
+    "figS08_error_by_province_season_detail.png"
+  ]
+}

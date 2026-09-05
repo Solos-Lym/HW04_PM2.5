@@ -1,0 +1,15 @@
+﻿metric,value
+ddc_rows_scanned,6601104
+ddc_valid_icd_rows_in_at2_period,6598464
+ddc_valid_icd_rows_with_unmapped_facility,0
+ddc_province_month_rows,152
+openaq_sensor_day_rows,64732
+openaq_eligible_sensor_day_rows,50205
+openaq_province_day_rows,10047
+openaq_locations,160
+openaq_centroid_fallback_provinces,0
+firms_raw_area_rows,11476020
+firms_rows_inside_requested_country,4430181
+firms_rows_after_product_confidence_date_filters,4014627
+firms_exact_duplicate_rows_removed,3
+firms_source_table_rows,13680

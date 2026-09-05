@@ -1,0 +1,43 @@
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary and incomplete downloads
+*.tmp
+*.part
+*.crdownload
+
+# Runtime logs
+*.log
+outputs/logs/
+
+# Keep reproducibility inputs and outputs tracked:
+# README.md, requirements.txt, src/, data/raw/, data/processed/,
+# outputs/metadata/, outputs/quality/, outputs/analysis/,
+# outputs/modeling/, and outputs/models/.
+report/presentation.mp4

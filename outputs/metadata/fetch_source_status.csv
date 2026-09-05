@@ -1,0 +1,12 @@
+﻿dataset,source,required_file_count,found_file_count,complete,accepted_patterns
+DDC respiratory disease records,Department of Disease Control,13,13,True,DDC/smog_odpc1_2567.csv; DDC/smog_odpc1_2568-01.csv; DDC/smog_odpc1_2568-02.csv; DDC/smog_odpc1_2568-03.csv; DDC/smog_odpc1_2568-04.csv; DDC/smog_odpc1_2568-05.csv; DDC/smog_odpc1_2568-06.csv; DDC/smog_odpc1_2568-07.csv; DDC/smog_odpc1_2568-08.csv; DDC/smog_odpc1_2568-09.csv; DDC/smog_odpc1_2568-10.csv; DDC/smog_odpc1_2568-11.csv; DDC/smog_odpc1_2568-12.csv
+DDC data dictionary,Department of Disease Control,1,1,True,DDC/datadict.csv
+Healthcare provider master,Ministry of Public Health,1,1,True,PROVIDER/health_office.csv
+Hospital accreditation and capacity,Healthcare Accreditation Institute (Public Organization),1,1,True,PROVIDER/ha_aod_001-2.csv
+Registered population,Department of Provincial Administration,4,4,True,POPULATIONS/stat_c65.xls; POPULATIONS/stat_c66.xls; POPULATIONS/stat_c67.xls; POPULATIONS/stat_c68.xls
+Thailand administrative level 1 boundary,Open Development Mekong distribution; source data attributed to RTSD,1,1,True,BOUNDARY/tha_admbnda_adm1_rtsd_20190221.zip
+Historical daily weather,Open-Meteo Historical Weather API / ERA5,48,48,True,api/open_meteo_weather/*.json; OPEN-MATEO/WEATHER.csv
+Modeled PM2.5 benchmark,Open-Meteo Air Quality API / CAMS Global,32,32,True,api/open_meteo_modeled_pm25/*.json; OPEN-MATEO/PM2.5.csv
+Observed PM2.5 and sensor locations,OpenAQ API v3,2,1063,True,api/openaq/*.json; OPENAQ/STATION.csv; OPENAQ/LOCATION.csv
+Country boundaries for FIRMS clipping,GADM 4.1,4,4,True,boundary_country/gadm41_*_0.json
+VIIRS S-NPP fire hotspots,NASA FIRMS,1368,1368,True,api/nasa_firms/*/VIIRS_SNPP_SP_AREA_*.csv; NASA_FIRMS/CSV_SUOMI-*_archive.csv

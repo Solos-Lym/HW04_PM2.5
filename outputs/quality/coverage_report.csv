@@ -1,0 +1,12 @@
+﻿analytical_table,component,total_rows,available_rows,unavailable_rows,coverage_pct
+AT1,observed_pm25_target,13656,10047,3609,73.57205623901581
+AT1,weather_current_day,13656,13656,0,100.0
+AT1,hotspot_current_day,13656,13656,0,100.0
+AT1,modeled_pm25_benchmark,13656,9968,3688,72.99355594610427
+AT1,all_current_day_primary_sources,13656,10047,3609,73.57205623901581
+AT1_MODEL,one_day_ahead_model_eligible,13656,8222,5434,60.20796719390744
+AT2,diagnosis,288,152,136,52.77777777777778
+AT2,pm25_at_least_75_pct_days,288,171,117,59.375
+AT2,population,288,288,0,100.0
+AT2,capacity,288,288,0,100.0
+AT2,exploratory_model_eligible,288,35,253,12.152777777777777

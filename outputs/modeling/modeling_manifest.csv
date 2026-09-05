@@ -1,0 +1,17 @@
+﻿output_group,report_role,filename,relative_path,row_count
+RESULT,MACHINE_READABLE_MODEL_RESULT,validation_tuning_results.csv,outputs/modeling/results/validation_tuning_results.csv,12.0
+RESULT,MACHINE_READABLE_MODEL_RESULT,validation_model_summary.csv,outputs/modeling/results/validation_model_summary.csv,3.0
+RESULT,MACHINE_READABLE_MODEL_RESULT,test_results.csv,outputs/modeling/results/test_results.csv,3.0
+RESULT,MACHINE_READABLE_MODEL_RESULT,test_predictions.csv,outputs/modeling/results/test_predictions.csv,2412.0
+RESULT,MACHINE_READABLE_MODEL_RESULT,warning_metrics.csv,outputs/modeling/results/warning_metrics.csv,4.0
+RESULT,MACHINE_READABLE_MODEL_RESULT,cross_validation_results.csv,outputs/modeling/results/cross_validation_results.csv,8.0
+RESULT,MACHINE_READABLE_MODEL_RESULT,province_season_errors.csv,outputs/modeling/results/province_season_errors.csv,24.0
+RESULT,MACHINE_READABLE_MODEL_RESULT,feature_importance.csv,outputs/modeling/results/feature_importance.csv,32.0
+RESULT,MACHINE_READABLE_MODEL_RESULT,modeling_summary.json,outputs/modeling/results/modeling_summary.json,
+MODEL,SELECTED_FITTED_PIPELINE,selected_random_forest.joblib,outputs/models/selected_random_forest.joblib,
+TABLE,MAIN_TABLE_3,pm25_respi.csv,outputs/analysis/tables/pm25_respi.csv,3.0
+FIGURE,MAIN_FIGURE_4,fig04_model_comparison.png,outputs/analysis/figures/fig04_model_comparison.png,
+FIGURE,MAIN_FIGURE_5,fig05_warning_error_diagnostics.png,outputs/analysis/figures/fig05_warning_error_diagnostics.png,
+FIGURE,MAIN_FIGURE_6,fig06_at2_exploratory_association.png,outputs/analysis/figures/fig06_at2_exploratory_association.png,
+FIGURE,SUPPLEMENT_FIGURE_S7,figS07_test_predictions_detail.png,outputs/analysis/figures/figS07_test_predictions_detail.png,
+FIGURE,SUPPLEMENT_FIGURE_S8,figS08_error_by_province_season_detail.png,outputs/analysis/figures/figS08_error_by_province_season_detail.png,

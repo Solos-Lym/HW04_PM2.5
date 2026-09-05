@@ -1,0 +1,12 @@
+﻿table,key,exact_duplicate_rows,duplicate_primary_key_rows
+provinces.csv,province_key,0,0
+location.csv,location_id,0,0
+observepm25_sensorday.csv,sensor_id;analysis_date,0,0
+observepm25_provinceday.csv,province_key;analysis_date,0,0
+weather_provinceday.csv,province_key;analysis_date,0,0
+modelpm25_provinceday.csv,province_key;analysis_date,0,0
+hotspot.csv,province_key;analysis_date,0,0
+facility.csv,facility_key,0,0
+population.csv,province_key;year_ce,0,0
+hospital.csv,facility_key,0,0
+diagnosis.csv,province_key;year_month,0,0
